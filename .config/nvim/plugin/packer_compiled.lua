@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/brandon/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["melange-nvim"] = {
+    loaded = true,
+    path = "/home/brandon/.local/share/nvim/site/pack/packer/start/melange-nvim",
+    url = "https://github.com/savq/melange-nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/brandon/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -133,6 +138,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/brandon/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["smart-splits.nvim"] = {
+    loaded = true,
+    path = "/home/brandon/.local/share/nvim/site/pack/packer/start/smart-splits.nvim",
+    url = "https://github.com/mrjones2014/smart-splits.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

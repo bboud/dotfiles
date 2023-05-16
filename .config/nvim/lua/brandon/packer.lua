@@ -32,4 +32,6 @@ return require('packer').startup(function(use)
 	}
 }
 	use("ellisonleao/gruvbox.nvim")
+	use("savq/melange-nvim")
+    use('mrjones2014/smart-splits.nvim')
 end)
