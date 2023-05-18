@@ -1,0 +1,70 @@
+{
+    "layer": "top",
+    "modules-left": ["wlr/workspaces", "hyprland/submap"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["wireplumber","network", "cpu", "memory","clock", "tray"],
+    "hyprland/window": {
+        "max-length": 50
+    },
+    "clock": {
+        "format-alt": "{:%a, %d. %b  %H:%M}"
+    },
+    "hyprland/window": {
+        "format": "👉 {}",
+        "separate-outputs": true
+    },
+    "hyprland/submap": {
+        "format": "✌️ {}",
+        "max-length": 8,
+        "tooltip": false
+    },
+    "wlr/workspaces": {
+        "format": "{icon} {name}",
+        "on-click": "activate",
+        "format-icons": {
+            "urgent": "",
+            "active": "",
+            "default": ""
+        },
+        "sort-by-number": true
+    },
+    "cpu": {
+        "interval": 5,
+        "format": "{}% ",
+        "max-length": 10
+    },
+    "clock": {
+        "interval": 1,
+        "tooltip": true,
+        "format": "{:%T %A, %D}",
+        "tooltip-format": "{:%A}",
+    },
+    "memory": {
+        "interval": 30,
+        "format": "{}% ",
+        "max-length": 10
+    },
+    "network": {
+        "interface": "wlan0",
+        "format": "{ifname}",
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "format-disconnected": "", //An empty format will hide the module.
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+        "tooltip-format-ethernet": "{ifname} ",
+        "tooltip-format-disconnected": "Disconnected",
+        "max-length": 50
+    },
+    "tray": {
+        "icon-size": 21,
+        "spacing": 10
+    },
+    "wireplumber": {
+        "format": "{volume}% {icon}",
+        "format-muted": "",
+        "on-click": "helvum",
+        "format-icons": ["", "", ""],
+        "scroll-step": 1
+    }
+}
