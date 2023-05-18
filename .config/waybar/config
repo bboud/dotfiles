@@ -10,7 +10,7 @@
         "format-alt": "{:%a, %d. %b  %H:%M}"
     },
     "hyprland/window": {
-        "format": "👉 {}",
+        "format": "{}",
         "separate-outputs": true
     },
     "hyprland/submap": {
