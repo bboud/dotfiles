@@ -1,0 +1,28 @@
+* {
+    font-family: Pragmata Pro Mono;
+    font-size: 13px;
+    min-height: 0;
+    color: white;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+window#waybar {
+    background: rgba(37,37,37, 0.8);
+}
+
+tooltip {
+    background: rgba(43, 48, 59, 0.5);
+    border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+}
+
+#workspaces button.active{
+    background: #ff0000; 
+    border-radius: 0px;
+}
+
+.modules-right{
+    background: #Af0404;
+}
